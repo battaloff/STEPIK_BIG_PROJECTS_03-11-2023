@@ -11,7 +11,7 @@ class PersonBaseView(View):
     success_url = "/"
 
 
-class PersonListViewModel(PersonBaseView, ListView):
+class PersonListView(PersonBaseView, ListView):
     """Просмотреть список всех имен. Будем использовать переменную 'person_list' в шаблоне"""
     pass
 
